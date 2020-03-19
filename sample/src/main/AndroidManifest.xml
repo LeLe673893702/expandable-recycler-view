@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.thoughtbot.expandablerecyclerview.sample">
+  package="com.newler.expandablerecyclerview.sample">
 
   <application
     android:allowBackup="true"
@@ -8,7 +8,7 @@
     android:supportsRtl="true"
     android:theme="@style/AppTheme">
 
-    <activity android:name="com.thoughtbot.expandablerecyclerview.sample.MainActivity">
+    <activity android:name="com.newler.expandablerecyclerview.sample.MainActivity">
 
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
@@ -18,24 +18,24 @@
     </activity>
 
     <activity
-      android:name=".expand.ExpandActivity"
-      android:parentActivityName=".MainActivity" />
+      android:name="com.newler.expandablerecyclerview.sample.expand.ExpandActivity"
+      android:parentActivityName="com.newler.expandablerecyclerview.sample.MainActivity" />
 
     <activity
-      android:name=".multicheck.MultiCheckActivity"
-      android:parentActivityName=".MainActivity" />
+      android:name="com.newler.expandablerecyclerview.sample.multicheck.MultiCheckActivity"
+      android:parentActivityName="com.newler.expandablerecyclerview.sample.MainActivity" />
 
     <activity
-      android:name=".singlecheck.SingleCheckActivity"
-      android:parentActivityName=".MainActivity" />
+      android:name="com.newler.expandablerecyclerview.sample.singlecheck.SingleCheckActivity"
+      android:parentActivityName="com.newler.expandablerecyclerview.sample.MainActivity" />
 
     <activity
-      android:name=".multitype.MultiTypeActivity"
-      android:parentActivityName=".MainActivity" />
+      android:name="com.newler.expandablerecyclerview.sample.multitype.MultiTypeActivity"
+      android:parentActivityName="com.newler.expandablerecyclerview.sample.MainActivity" />
 
     <activity
-      android:name=".multitypeandcheck.MultiTypeCheckGenreActivity"
-      android:parentActivityName=".MainActivity" />
+      android:name="com.newler.expandablerecyclerview.sample.multitypeandcheck.MultiTypeCheckGenreActivity"
+      android:parentActivityName="com.newler.expandablerecyclerview.sample.MainActivity" />
 
   </application>
 
